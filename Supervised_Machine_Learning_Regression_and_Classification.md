@@ -1,5 +1,4 @@
 # Mental Map: Course 1 — Supervised Machine Learning: Regression and Classification
-*Instructor: Andrew Ng*
 
 ---
 
@@ -22,9 +21,9 @@ Week 1 transitions from general machine learning definitions to building your ve
 
 $$f_{w,b}(x) = wx + b$$
 
-  - $x$: Input feature (e.g., size of house).
-  - $w$: Weight (slope of the line).
-  - $b$: Bias (y-intercept).
+- $x$: Input feature (e.g., size of house).
+- $w$: Weight (slope of the line).
+- $b$: Bias (y-intercept).
 
 ### 3. The Objective: Cost Function
 
@@ -89,7 +88,7 @@ $$x_i := \frac{x_i - \mu_i}{\max - \min}$$
 
 $$x_i := \frac{x_i - \mu_i}{\sigma_i}$$
 
-*(Target range: roughly $-1 \le x_i \le 1$)*
+*Target range: roughly $-1 \le x_i \le 1$*
 
 ### 4. Polynomial Regression & Feature Engineering
 
@@ -143,7 +142,7 @@ $$J(\mathbf{w},b) = \frac{1}{m} \sum_{i=1}^{m} L\!\left(f_{\mathbf{w},b}(\mathbf
 ### 5. Overfitting vs. Underfitting (The Generalization Problem)
 
 | | Description | Symptom |
-|---|---|---|
+| --- | --- | --- |
 | **Underfitting (High Bias)** | Model is too simple / rigid | Fails to capture patterns even on training data |
 | **Overfitting (High Variance)** | Model is too complex (too many polynomial terms) | Fits training noise perfectly; fails on unseen data |
 
