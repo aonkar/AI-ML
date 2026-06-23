@@ -88,7 +88,7 @@ $$x_i := \frac{x_i - \mu_i}{\max - \min}$$
 
 $$x_i := \frac{x_i - \mu_i}{\sigma_i}$$
 
-*Target range: roughly $-1 \le x_i \le 1$*
+Target range: roughly −1 ≤ x_i ≤ 1
 
 ### 4. Polynomial Regression & Feature Engineering
 
